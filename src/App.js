@@ -1,8 +1,15 @@
-import './App.css';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+      <Navbar />
+      <Header />
+      <Portfolio />
+    </>
   );
 }
 
